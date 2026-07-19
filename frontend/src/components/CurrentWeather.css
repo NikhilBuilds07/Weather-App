@@ -1,0 +1,90 @@
+/* .current-weather{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 50px;
+      width: 300px;
+    padding: 20px;
+} */
+
+.current-weather .temp{
+    margin-top:0;
+}
+.current-weather img{
+    width:100px;
+}
+.current-weather p{
+    margin:20px;
+    font-size:1.2rem;
+}
+
+.condition,
+.condition-icon{
+    text-align: center;
+    margin-top: 0;
+
+}
+.condition-text{
+    margin: px;
+}
+
+.current-weather-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+    margin: 30px 0;
+}
+
+.left-card{
+    width: 320px;
+    min-height: 250px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+}
+.right-card{
+    width:320px;
+    min-height:350px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+}
+.detail-item{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.detail-item:last-child{
+    margin-bottom: 10px;
+}
+.detail-label{
+    color:#cccccc;
+    font-size: 1.5rem;
+    
+}
+.detail-value{
+
+    font-size: 1.1rem;
+}
+
+.city{
+    font-size: xx-large;
+}
+.feels{
+    margin: 7px;
+}
+@media (max-width: 650px) {
+.top-section{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.left-card,
+.right-card{
+    width:100%;
+    max-width:350px;
+}
+}
