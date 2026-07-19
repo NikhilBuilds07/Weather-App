@@ -80,20 +80,15 @@
 .top-section{
     flex-direction: column;
     align-items: center;
-    /* gap: 20px; */
+    gap: 20px;
 }
-/* .left-card{
+.left-card{
     width: 95%;
     min-width: 100px;
 }
 .right-card{
     width:50%;
+    max-width: 180px;
     /* max-width:350px; */
-/* } */ */
-.left-card,
-.right-card{
-    width:95%;
-    max-width:420px;
 }
-
 }
