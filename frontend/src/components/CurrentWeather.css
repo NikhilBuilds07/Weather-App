@@ -84,13 +84,12 @@
     flex-direction:column;
     align-items:center;
     gap:20px;
-    padding:0 10px;   /* Only Current Weather gets side spacing */
-    box-sizing:border-box;
 }
 
 .left-card,
 .right-card{
-    width:100%;
+    width:calc(100% - 24px);
+    margin:0 auto;
     max-width:none;
 }
 
