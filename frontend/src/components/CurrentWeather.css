@@ -82,9 +82,11 @@
     align-items: center;
     gap: 20px;
 }
-.left-card,
+.left-card{
+    width: 95%;
+}
 .right-card{
-    width:100%;
+    width:70%;
     max-width:350px;
 }
 }
