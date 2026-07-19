@@ -1,6 +1,6 @@
 export const getWeatherData = async (cityName) => {
     const response = await fetch(
-        `http://localhost:5000/api/weather?city=${cityName}`
+         `https://weather-app-api-lvr0.onrender.com/api/weather?city=${cityName}`
     );
 
     const data = await response.json();
