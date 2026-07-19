@@ -76,19 +76,20 @@
 .feels{
     margin: 7px;
 }
-@media (max-width: 650px) {
+@media (max-width:650px){
 
-    .current-weather-wrapper{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
-
-    .left-card,
-.right-card{
-    width: 100%;
-    max-width: none;
-    min-height: auto;
+.current-weather-wrapper{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
 }
+
+.left-card,
+.right-card{
+    width:100%;
+    max-width: 350px;;
+}
+
 }
