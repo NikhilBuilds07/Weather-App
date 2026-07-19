@@ -86,10 +86,9 @@
     }
 
     .left-card,
-    .right-card{
-        width: 95%;
-        max-width: 520px;
-        min-height: auto;
-    }
-
+.right-card{
+    width: 100%;
+    max-width: none;
+    min-height: auto;
+}
 }
