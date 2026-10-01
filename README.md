@@ -41,7 +41,7 @@ information such as temperature, humidity, wind, UV index, and forecast.
 
 ## 📸 Screenshot
 
-![Weather App Screenshot](screenshot.png)
+![Weather App Screenshot](weatherss.png)
 
 ## ⚙️ Installation
 
